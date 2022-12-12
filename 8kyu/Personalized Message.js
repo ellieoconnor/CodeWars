@@ -1,0 +1,12 @@
+//PERSONALIZED MESSAGE
+/* Create a function that gives a personalized greeting.
+This function takes two parameters: name and owner. */
+function greet (name, owner) {
+    if(name === owner){
+      return `Hello boss`
+    }else{
+      return `Hello guest`
+    }
+}
+//OR
+const greet = (name, owner) => name === owner ? `Hello boss` : `Hello guest`;
